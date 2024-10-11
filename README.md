@@ -30,7 +30,7 @@ Please choose an option:
 
 Run the following command on your Linux server to download and execute the script:
 
-<code>sudo curl -s https://raw.githubusercontent.com/dknodes/uniswap_node/main/uniswap_node.sh -o uniswap_node.sh && sudo chmod +x uniswap_node.sh && sudo ./uniswap_node.sh</code>
+<code>sudo curl -s https://raw.githubusercontent.com/dknodes/unichain-node/main/uniswap_node.sh -o uniswap_node.sh && sudo chmod +x uniswap_node.sh && sudo ./uniswap_node.sh</code>
 
 Note: Ensure you have **curl** installed on your system.
 
