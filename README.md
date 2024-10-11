@@ -1,4 +1,4 @@
-**Uniswap Node Easy Installer Script**
+**Unichain (Uniswap) Node easy installation script**
 
 The **DK NODES** team has developed a script for the easy one-click installation of a Uniswap Node on a Linux server.
 
