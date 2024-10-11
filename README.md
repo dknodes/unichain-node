@@ -17,9 +17,13 @@ Please choose an option:
 
 
 **Minimum Requirements**
+
 **CPU**: 6 vCPU Cores
+
 **RAM**: 16 GB
+
 **Storage**: 400 GB SSD
+
 
 **Installation**
 
