@@ -25,6 +25,7 @@ Please choose an option:
 **Storage**: 400 GB SSD
 
 
+
 **Installation**
 
 Run the following command on your Linux server to download and execute the script:
@@ -33,8 +34,10 @@ Run the following command on your Linux server to download and execute the scrip
 
 Note: Ensure you have **curl** installed on your system.
 
+
 **Supported Networks**
 The script supports installation on all networks compatible with Uniswap Nodes.
+
 
 **Stay Updated**
 Subscribe to our Telegram channel to always find useful information:
