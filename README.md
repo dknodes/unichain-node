@@ -4,8 +4,8 @@ The **DK NODES** team has developed a script for the easy one-click installation
 
 **Features**
 The script provides the following options:
-<code>Please choose an option:
-
+<code>
+Please choose an option:
 1. 🛠️ Install node
 2. 🔄 Restart node
 3. ✅ Check node
