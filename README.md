@@ -28,7 +28,7 @@ The script provides the following options:
 6. ⏹️ **Disable Node**
 7. 🛠️ **Update Node**
 8. 🔐 **View Private Key**
-9. ❌ **Exit**
+0. ❌ **Exit**
 
 
 ## Stay Updated
