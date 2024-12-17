@@ -19,6 +19,7 @@ ICON_LOG_OP_NODE="📄"
 ICON_LOG_EXEC_CLIENT="📄"
 ICON_DISABLE="⏹️"
 ICON_EXIT="❌"
+ICON_WALLLET="🔐"
 
 # ----------------------------
 # Function to display ASCII logo and social links
@@ -68,9 +69,10 @@ show_menu() {
     echo -e "    ${CYAN}5.${RESET} ${ICON_LOG_EXEC_CLIENT} Check logs of Uniswap node Execution Client"
     echo -e "    ${CYAN}6.${RESET} ${ICON_DISABLE} Disable node"
     echo -e "    ${CYAN}7.${RESET} ${ICON_INSTALL} Update node"
+    echo -e "    ${CYAN}8.${RESET} ${ICON_WALLLET} View private key"
     echo -e "    ${CYAN}0.${RESET} ${ICON_EXIT} Exit"
     draw_bottom_border
-    echo -ne "${YELLOW}Enter your choice [0-7]: ${RESET}"
+    echo -ne "${YELLOW}Enter your choice [0-8]: ${RESET}"
 }
 
 # ----------------------------
@@ -119,6 +121,12 @@ update_node(){
     echo -e "${GREEN}✅ Node has been update.${RESET}"
     echo
     read -p "Press Enter to return to the main menu..."
+}
+
+cat_private(){
+    echo -e "${GREEN} 🔐 Private key${RESET}"
+    HOMEDIR="$HOME"
+    cat ${HOMEDIR}/unichain-node/geth-data/geth/nodekey;
 }
 
 # ----------------------------
@@ -206,6 +214,9 @@ while true; do
         7)
             update_node
             ;;
+        8)
+            cat_private
+            ;;
         0)
             echo -e "${GREEN}❌ Exiting...${RESET}"
             exit 0
@@ -217,3 +228,7 @@ while true; do
             ;;
     esac
 done
+
+
+
+sudo curl -s https://raw.githubusercontent.com/dknodes/unichain-node/main/unichainDK.sh -o unichainDK.sh && sudo chmod +x unichainDK.sh && sudo ./unichainDK.sh
