@@ -31,11 +31,6 @@ The script provides the following options:
 9. ❌ **Exit**
 
 
-
-## Supported Networks
-
-The script supports installation on all networks compatible with Uniswap Nodes.
-
 ## Stay Updated
 
 Subscribe to our channel to always find useful information:
