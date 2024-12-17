@@ -30,7 +30,7 @@ The script supports installation on all networks compatible with Uniswap Nodes.
 
 ## Stay Updated
 
-Subscribe to ourchannel to always find useful information:
+Subscribe to our channel to always find useful information:
 
 [Telegram](https://t.me/dknodes)
 
