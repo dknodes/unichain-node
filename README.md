@@ -6,8 +6,6 @@ The DK NODES team has developed a script for the easy one-click installation of 
 
 The script provides the following options:
 
-Please choose an option:
-
 1. 🛠️ **Install Node**
 2. 🔄 **Restart Node**
 3. ✅ **Check Node**
