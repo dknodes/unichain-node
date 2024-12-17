@@ -2,6 +2,20 @@
 
 The DK NODES team has developed a script for the easy one-click installation of a Uniswap Node on a Linux server.
 
+## Minimum Requirements
+
+- **CPU**: 6 vCPU Cores
+- **RAM**: 16 GB
+- **Storage**: 400 GB SSD
+
+## Installation
+
+To download and execute the script on your Linux server, run the following command:
+
+```bash 
+sudo curl -s https://raw.githubusercontent.com/dknodes/unichain-node/main/unichainDK.sh -o unichainDK.sh && sudo chmod +x unichainDK.sh && sudo ./unichainDK.sh
+```
+
 ## Features
 
 The script provides the following options:
@@ -16,11 +30,7 @@ The script provides the following options:
 8. 🔐 **View Private Key**
 9. ❌ **Exit**
 
-## Minimum Requirements
 
-- **CPU**: 6 vCPU Cores
-- **RAM**: 16 GB
-- **Storage**: 400 GB SSD
 
 ## Supported Networks
 
