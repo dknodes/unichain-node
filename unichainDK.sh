@@ -126,7 +126,7 @@ update_node(){
 cat_private(){
     echo -e "${GREEN} 🔐 Private key${RESET}"
     HOMEDIR="$HOME"
-    cat ${HOMEDIR}/unichain-node/geth-data/geth/nodekey
+    cat ${HOMEDIR}/unichain-node/geth-data/geth/nodekey; echo
     echo
     read -p "Press Enter to return to the main menu..."
 }
